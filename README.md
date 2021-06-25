@@ -8,5 +8,5 @@
 The frontend design created using [react Material-UI: A popular React UI framework](https://material-ui.com/) 
 
 
-[#Website Live Demo](https://covid-19-tracker-9d33b.web.app/)
+[Website Live Demo](https://covid-19-tracker-9d33b.web.app/)
 
