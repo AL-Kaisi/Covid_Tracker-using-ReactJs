@@ -1,4 +1,4 @@
-# Covid_Tracker
+# COVID-19 Tracker
 
 
 [React Covid Tracker Wire Frame](https://drive.google.com/file/d/1mxl5wv58Ro9HUmMRcCcHu2KFr-DmFnDL/view?usp=sharing) <br>
@@ -8,18 +8,13 @@
 The frontend design created using [react Material-UI: A popular React UI framework](https://material-ui.com/) 
 
 
-[Website Live Demo](https://covid-19-tracker-9d33b.web.app/)
 
-
-# COVID-19 Tracker
-
-![COVID-19 Tracker](https://i.imgur.com/Ej8wULk.png)
 
 ## 📋 Overview
 
 A real-time COVID-19 tracking application built with React.js that provides up-to-date statistics on coronavirus cases worldwide. This project was developed during the global pandemic to help visualize and understand the spread of the virus across different countries.
 
-[Live Demo](https://covid-tracker-reactjs.web.app/) 
+[Website Live Demo](https://covid-19-tracker-9d33b.web.app/)
 
 ## ✨ Features
 
