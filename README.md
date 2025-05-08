@@ -1,22 +1,18 @@
 # COVID-19 Tracker
 
+[React Covid Tracker Wire Frame](https://drive.google.com/file/d/1mxl5wv58Ro9HUmMRcCcHu2KFr-DmFnDL/view?usp=sharing)
 
-[React Covid Tracker Wire Frame](https://drive.google.com/file/d/1mxl5wv58Ro9HUmMRcCcHu2KFr-DmFnDL/view?usp=sharing) <br>
+<img src="https://github.com/AL-Kaisi/Covid_Tracker/blob/main/covid-19-tacker/public/covid%20Tracker.png" width="800" height="800">
 
-<img src="https://github.com/AL-Kaisi/Covid_Tracker/blob/main/covid-19-tacker/public/covid%20Tracker.png " width="800" height="800">
+The frontend design created using [react Material-UI: A popular React UI framework](https://material-ui.com/)
 
-The frontend design created using [react Material-UI: A popular React UI framework](https://material-ui.com/) 
-
-
-
-
-## 📋 Overview
+## Overview
 
 A real-time COVID-19 tracking application built with React.js that provides up-to-date statistics on coronavirus cases worldwide. This project was developed during the global pandemic to help visualize and understand the spread of the virus across different countries.
 
 [Website Live Demo](https://covid-19-tracker-9d33b.web.app/)
 
-## ✨ Features
+## Features
 
 - **Global Statistics**: Track total cases, recoveries, and deaths worldwide
 - **Country-Specific Data**: Filter statistics by country with an interactive dropdown
@@ -24,7 +20,7 @@ A real-time COVID-19 tracking application built with React.js that provides up-t
 - **Historical Data**: View trends over time through intuitive charts and graphs
 - **Mobile Responsive**: Fully optimized for all device sizes
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React.js**: Frontend library for building the user interface
 - **Material-UI**: React component library for design consistency
@@ -33,14 +29,14 @@ A real-time COVID-19 tracking application built with React.js that provides up-t
 - **Disease.sh API**: Open API for disease-related statistics
 - **Firebase**: Hosting platform for the live application
 
-## 📊 Data Source
+## Data Source
 
 This application uses the disease.sh API to fetch real-time COVID-19 data:
 - Global statistics
 - Country-specific information
 - Historical data for trend analysis
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +67,7 @@ This application uses the disease.sh API to fetch real-time COVID-19 data:
 
 4. Open your browser and navigate to `http://localhost:3000`
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── public/
@@ -94,7 +90,7 @@ This application uses the disease.sh API to fetch real-time COVID-19 data:
 └── package.json
 ```
 
-## 📱 Application Wireframe
+## Application Wireframe
 
 The application follows a clean, intuitive design focused on data visualization and user experience:
 
@@ -103,14 +99,14 @@ The application follows a clean, intuitive design focused on data visualization 
 - Bottom section: Geographical representation with interactive map
 - Trend analysis: Historical data visualization with line graphs
 
-## 🔄 How It Works
+## How It Works
 
 1. **Data Fetching**: The application connects to the disease.sh API to retrieve the latest COVID-19 statistics
 2. **State Management**: React's state management handles the dynamic data and user interactions
 3. **Visualization**: Data is transformed into visual representations using Chart.js and Leaflet map
 4. **User Interaction**: Users can select different countries to view specific statistics and trends
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute:
 
@@ -120,15 +116,15 @@ Contributions are welcome! If you'd like to contribute:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+## Author
 
 - **Mohamed Alkaisi** - [AL-Kaisi](https://github.com/AL-Kaisi)
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Disease.sh](https://disease.sh/) for providing open access to COVID-19 data
 - [Material-UI](https://material-ui.com/) for the React components
