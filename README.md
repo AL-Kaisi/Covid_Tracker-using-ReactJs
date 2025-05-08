@@ -2,7 +2,7 @@
 
 [React Covid Tracker Wire Frame](https://drive.google.com/file/d/1mxl5wv58Ro9HUmMRcCcHu2KFr-DmFnDL/view?usp=sharing)
 
-<img src="https://github.com/AL-Kaisi/Covid_Tracker/blob/main/covid-19-tacker/public/covid%20Tracker.png" width="800" height="800">
+<img src="https://github.com/AL-Kaisi/Covid_Tracker-using-ReactJs/blob/main/covid-19-tacker/public/covid%20Tracker.png" width="800" height="800">
 
 The frontend design created using [react Material-UI: A popular React UI framework](https://material-ui.com/)
 
@@ -70,24 +70,43 @@ This application uses the disease.sh API to fetch real-time COVID-19 data:
 ## Project Structure
 
 ```
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── InfoBox.js
+├── covid-19-tacker/
+│   ├── public/
+│   │   ├── covid Tracker.png
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── LineGraph.js
+│   │   ├── Map.css
 │   │   ├── Map.js
+│   │   ├── Table.css
 │   │   ├── Table.js
-│   │   └── LineGraph.js
-│   ├── assets/
-│   │   └── images/
-│   ├── util/
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── infoBox.css
+│   │   ├── infoBox.js
+│   │   ├── reportWebVitals.js
 │   │   └── util.js
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-└── package.json
+│   ├── .firebase/
+│   ├── .github/
+│   │   └── workflows/
+│   │       ├── firebase-hosting-merge.yml
+│   │       └── firebase-hosting-pull-request.yml
+│   ├── node_modules/
+│   ├── .eslintcache
+│   ├── .firebaserc
+│   ├── .gitignore
+│   ├── README.md
+│   ├── firebase.json
+│   ├── package-lock.json
+│   ├── package.json
+│   └── yarn.lock
 ```
 
 ## Application Wireframe
@@ -103,8 +122,14 @@ The application follows a clean, intuitive design focused on data visualization 
 
 1. **Data Fetching**: The application connects to the disease.sh API to retrieve the latest COVID-19 statistics
 2. **State Management**: React's state management handles the dynamic data and user interactions
-3. **Visualization**: Data is transformed into visual representations using Chart.js and Leaflet map
-4. **User Interaction**: Users can select different countries to view specific statistics and trends
+3. **Visualization**: Data is transformed into visual representations using Chart.js (LineGraph.js) and Leaflet map (Map.js)
+4. **User Interface Components**:
+   - InfoBox.js: Displays key statistics in card format
+   - Table.js: Shows country-specific data in a sortable table
+   - Map.js: Renders an interactive geographical representation
+   - LineGraph.js: Creates trend visualizations over time
+5. **User Interaction**: Users can select different countries to view specific statistics and trends
+6. **Deployment**: The application is deployed using Firebase hosting with GitHub Actions workflows for CI/CD
 
 ## Contributing
 
